@@ -1,0 +1,17 @@
+# render.yaml — Deploy backend to Render
+services:
+  - type: web
+    name: hospital-triage-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false          # Set manually in Render dashboard
+      - key: AI_URL
+        sync: false          # Your ngrok URL — update when AI is running
+      - key: FRONTEND_URL
+        sync: false          # Your Vercel URL
+      - key: NODE_ENV
+        value: production
