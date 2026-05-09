@@ -1,3 +1,11 @@
+# 🏥 Contributors
+
+This project was collaboratively developed by:
+
+- Sonakshi Saraswat (@sonakshyy) — AI Model Training, Triage System & ML Pipeline
+- Lakshya Sharma — Frontend , Backend & dashboard
+
+
 # 🏥 AI Hospital Triage System — Complete Guide
 
 A production-ready hackathon project: AI-based Pre-Triage + Re-Triage system
